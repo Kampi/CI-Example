@@ -1,0 +1,16 @@
+image: debian
+
+stages:
+  - Version
+  - Compile
+  
+Version:
+    stage: Version
+    script:
+        - whoami
+        
+Compile:
+    stage: Compile
+    script:
+        - apt-get update -qq && apt-get install -y gcc-avr binutils-avr avr-libc
+        - avr-gcc -Wall -g -Os -mmcu=atxmega256a3bu -std=gnu99 -o main.bin src/main.c
