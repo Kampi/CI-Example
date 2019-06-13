@@ -1,6 +1,6 @@
-# CI-Example
+# AVR-Example
 
-This repository contains some CI/CD examples for Git.
+This repository AVR-GCC CI/CD examples for Git.
 
 ## Maintainer
 
