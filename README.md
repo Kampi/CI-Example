@@ -1,4 +1,4 @@
-![Build Status](https://gitlab.com/pages/ci-example/badges/master/build.svg)
+![Build Status](https://gitlab.com/Kampi/ci-example/badges/master/build.svg)
 
 # CI-Example
 
